@@ -39,7 +39,9 @@ After download the pre-trained weights file, put it under the root directory and
 
 
 ### Results
-![Alt Text](/images/img3.png)
+<p align="center">
+  <img width="460" height="300" src="/images/img3.png">
+</p>
 
 
 ## License
