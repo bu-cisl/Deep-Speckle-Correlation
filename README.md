@@ -25,6 +25,11 @@ Matplotlib 2.1.2
 
 
 
+### Download pre-trained weights
+You can download pre-trained weights from [here](https://www.dropbox.com/s/e1qcrv9o3i0h8z3/pretrained_weights.hdf5?dl=0)
+
+
+
 ### CNN architecture
 ![Alt Text](/images/img2.png)
 
