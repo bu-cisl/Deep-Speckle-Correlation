@@ -9,7 +9,10 @@ If you find this project useful in your research, please consider citing our pap
 
 ### Abstract
 Imaging through scattering is an important, yet challenging problem. Tremendous progress has been made by exploiting the deterministic input-output transmission matrix for a fixed medium. However, this one-for-one approach is highly susceptible to speckle decorrelations -- small perturbations to the scattering medium lead to model errors and severe degradation of the imaging performance. Our goal here is to develop a new framework that is highly scalable to both medium perturbations and measurement requirement.  To do so, we propose a statistical one-for-all deep learning technique that encapsulates a wide range of statistical variations for the model to be resilient to speckle decorrelations. Specifically, we develop a convolutional neural network (CNN) that is able to learn the statistical information contained in the speckle intensity patterns captured on a set of diffusers having the same macroscopic parameter. We then show for the first time, to the best of our knowledge, that the trained CNN is able to generalize and make high-quality object prediction through an entirely different set of  diffusers of the same class. Our work paves the way to a highly scalable deep learning approach for imaging through scattering media. 
-![Alt Text](/images/img1.png)
+
+<p align="center">
+  <img src="/images/img1.png">
+</p>
 
 
 ### Requirements
@@ -27,7 +30,9 @@ Matplotlib 2.1.2
 
 
 ### CNN architecture
-![Alt Text](/images/img2.png)
+<p align="center">
+  <img src="/images/img2.png">
+</p>
 
 
 ### Download pre-trained weights
@@ -40,7 +45,7 @@ After download the pre-trained weights file, put it under the root directory and
 
 ### Results
 <p align="center">
-  <img width="460" height="300" src="/images/img3.png">
+  <img src="/images/img3.png">
 </p>
 
 
