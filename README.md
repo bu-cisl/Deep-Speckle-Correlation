@@ -17,10 +17,15 @@ Imaging through scattering is an important, yet challenging problem. Tremendous 
 
 ### Requirements
 Python 3.6
+
 Keras 2.1.2
+
 Tensorflow 1.4.0
+
 Numpy 1.14.3
+
 H5py 2.7.1
+
 Matplotlib 2.1.2
 
 
