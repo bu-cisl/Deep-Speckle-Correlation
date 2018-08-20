@@ -31,4 +31,4 @@ Imaging through scattering is an important, yet challenging problem. Tremendous 
 ![Alt Text](/images/img3.png)
 
 ## License
-This project is licensed under the terms of the MIT license. see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the terms of the MIT license. see the [LICENSE](LICENSE) file for details
