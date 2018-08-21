@@ -1,3 +1,16 @@
+"""
+python implementation of paper: Deep speckle correlation: a deep learning approach towards scalable imaging through
+scattering media
+
+paper link: https://arxiv.org/abs/1806.04139
+
+Author: Yunzhe li, Yujia Xue, Lei Tian
+
+Computational Imaging System Lab, @ ECE, Boston University
+
+Date: 2018.08.21
+"""
+
 from __future__ import print_function
 
 from keras.models import Model
@@ -6,6 +19,7 @@ from keras.layers.normalization import BatchNormalization
 from keras.regularizers import l2
 
 
+# define conv_factory: batch normalization + ReLU + Conv2D + Dropout (optional)
 def conv_factory(x, concat_axis, nb_filter,
                  dropout_rate=None, weight_decay=1E-4):
     x = BatchNormalization(axis=concat_axis,
@@ -22,6 +36,7 @@ def conv_factory(x, concat_axis, nb_filter,
     return x
 
 
+# define dense block
 def denseblock(x, concat_axis, nb_layers, growth_rate,
                dropout_rate=None, weight_decay=1E-4):
     list_feat = [x]
@@ -34,6 +49,7 @@ def denseblock(x, concat_axis, nb_layers, growth_rate,
     return x
 
 
+# define model U-net modified with dense block
 def get_model_deep_speckle():
     inputs = Input((256, 256, 1))
     print("inputs shape:", inputs.shape)
