@@ -16,17 +16,17 @@ Imaging through scattering is an important, yet challenging problem. Tremendous 
 
 
 ### Requirements
-Python 3.6
+python 3.6
 
-Keras 2.1.2
+keras 2.1.2
 
-Tensorflow 1.4.0
+tensorflow 1.4.0
 
-Numpy 1.14.3
+numpy 1.14.3
 
-H5py 2.7.1
+h5py 2.7.1
 
-Matplotlib 2.1.2
+matplotlib 2.1.2
 
 
 ### CNN architecture
