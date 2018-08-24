@@ -4,6 +4,7 @@ Python implementation of paper: **Deep speckle correlation: a deep learning appr
 
 ### Citation
 If you find this project useful in your research, please consider citing our paper:
+
 [**Li, Y., Xue, Y. and Tian, L., 2018. Deep speckle correlation: a deep learning approach towards scalable imaging through scattering media. arXiv preprint arXiv:1806.04139.**](https://arxiv.org/abs/1806.04139)
 
 
