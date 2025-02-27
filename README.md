@@ -39,6 +39,8 @@ matplotlib 2.1.2
 ### Download pre-trained weights
 You can download pre-trained weights from [here](https://www.dropbox.com/s/e1qcrv9o3i0h8z3/pretrained_weights.hdf5?dl=0)
 
+### Download dataset
+You can download dataset from [here](https://zenodo.org/records/14934266?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjA4NWZjOWNkLTAwNzctNGIyNi04ODNkLTIzOTIxYzA2NTg1ZCIsImRhdGEiOnt9LCJyYW5kb20iOiIwMTVlNTA0YjE2N2RjNTQ3NjlmOTQ4ZWM1MDE3MmY4NyJ9.7FuO7_HZdT-pXfJY5NHey6tZ_H4YwC1QEYfROznirjCO_OZNawN-CpaB6Brb6Qrona-rabd3NeOcQWlNAcOPwg)
 
 ### How to use
 After download the pre-trained weights file, put it under the root directory and run [demo.py](demo.py).
