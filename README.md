@@ -42,17 +42,17 @@ You can download pre-trained weights from [here](https://zenodo.org/records/1493
 ### Download dataset
 You can download dataset from [here](https://zenodo.org/records/15361263?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjA4NWZjOWNkLTAwNzctNGIyNi04ODNkLTIzOTIxYzA2NTg1ZCIsImRhdGEiOnt9LCJyYW5kb20iOiIwMTVlNTA0YjE2N2RjNTQ3NjlmOTQ4ZWM1MDE3MmY4NyJ9.7FuO7_HZdT-pXfJY5NHey6tZ_H4YwC1QEYfROznirjCO_OZNawN-CpaB6Brb6Qrona-rabd3NeOcQWlNAcOPwg)
 #### Data for training:
-Letter speckle: each diffuser we use 300 images for training [image and corresponding ground truth index range:0-299)]
-Digit speckle: each diffuser we use 300 images for training [image and corresponding ground truth index range:0-299)]
+Letter speckle: each diffuser we use 300 images for training [image and corresponding ground truth index range:0-299)]  
+Digit speckle: each diffuser we use 300 images for training [image and corresponding ground truth index range:0-299)]  
 
 #### Data for testing:
-Seen digits and letters: each unseen diffuser 400 images.
-Including:
-200 letters [image index 0-199)] corresponding letter ground truth index 0-199
-200 digits [image index 200-399] corresponding digits ground truth index 0-199
-Unseen digits and letters
-Unseen digits:  100 images are used for testing [image and corresponding ground truth index range 300-399]
-Unseen digits: 100 images are used for testing [image and corresponding ground truth index range 300-399]
+Seen digits and letters: each unseen diffuser 400 images.  
+Including:  
+200 letters [image index 0-199)] corresponding letter ground truth index 0-199  
+200 digits [image index 200-399] corresponding digits ground truth index 0-199  
+Unseen digits and letters  
+Unseen digits:  100 images are used for testing [image and corresponding ground truth index range 300-399]  
+Unseen digits: 100 images are used for testing [image and corresponding ground truth index range 300-399]  
 Quickdraw : different object types
 
 
